@@ -107,7 +107,7 @@ public class IntList {
      * This method is destructive. If given null
      * as an input, returns null.
      */
-    public  IntList reverse(IntList A){
+    public static IntList reverse(IntList A){
         if(A==null) return A;
         IntList prev=null;
         IntList curr=A;
